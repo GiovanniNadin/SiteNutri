@@ -81,7 +81,7 @@ function Header() {
     <HeaderContainer>
       <LOGO></LOGO>
       <OpcoesBotoesContainer>
-        <OpcoesBotoes onClick={() => handleNavigation("/siteinicial")}>INICIO</OpcoesBotoes>
+        <OpcoesBotoes onClick={() => handleNavigation("/SiteNutri")}>INICIO</OpcoesBotoes>
         <OpcoesBotoes onClick={() => handleNavigation("/quem-eu-sou")}>QUEM EU SOU</OpcoesBotoes>
         <OpcoesBotoes onClick={() => handleNavigation("/motivos-para-me-ajudar")}>MOTIVOS PARA ME AJUDAR</OpcoesBotoes>
         <OpcoesBotoes onClick={() => handleNavigation("/duvidas")}>DÚVIDAS</OpcoesBotoes>

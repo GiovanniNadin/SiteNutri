@@ -32,7 +32,7 @@ function App() {
       <Appcontainer>
         <Header />
         <Routes>
-          <Route path="/siteinicial" element={<Pesquisa />} />
+          <Route path="/SiteNutri" element={<Pesquisa />} />
           <Route path="/login" element={<Loginn />} />
           <Route path="/quem-eu-sou" element={<QuemuSou />} />
           <Route path="/motivos-para-me-ajudar" element={<MotivosaraAjudar />} />
