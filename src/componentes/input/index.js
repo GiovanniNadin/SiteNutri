@@ -1,21 +1,26 @@
 import styled from "styled-components";
 let Input = styled.input `
-        border: 1px solid #FFF;
-        background: transparent;
-        border: 1px solid black;
-        padding: 20px 140px;
-        border-radius: 50px;
-        width: 200px;
-        color: black;
-        font-size: 16px;
-        margin-bottom: 10px;
-        margin-left: 114px;
-        text-align: center;
-        align-self: center;
-        &::placeholder {
-                color: black;
-                text-align: center; 
-                font-size: 16px;
-        }
+  border: 1px solid #ccc;
+  background: transparent;
+  padding: 12px 24px;
+  border-radius: 25px;
+  width: 80%; /* Tornando o input mais responsivo */
+  max-width: 400px; /* Limita a largura máxima */
+  color: black;
+  font-size: 16px;
+  margin: 10px auto; /* Centraliza o input */
+  display: block;
+  text-align: center;
+
+  &::placeholder {
+    color: #aaa; /* Cor do placeholder mais suave */
+    text-align: center;
+    font-size: 16px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 10px 20px; /* Ajuste no padding em telas pequenas */
+    font-size: 14px;
+  }
 `
 export default Input

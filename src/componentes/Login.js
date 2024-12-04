@@ -17,6 +17,10 @@ const LoginBox = styled.div`
     margin-bottom: 20px;
     color: #333;
     font-size: 1.8rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.4rem; /* Ajustando o tamanho da fonte do título para telas pequenas */
+    }
   }
 
   input {
@@ -33,6 +37,11 @@ const LoginBox = styled.div`
       border-color: #007bff;
       box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
     }
+
+    @media (max-width: 768px) {
+      padding: 8px 12px; /* Ajustando o padding dos inputs para telas pequenas */
+      font-size: 0.9rem; /* Reduzindo o tamanho da fonte para dispositivos móveis */
+    }
   }
 
   button {
@@ -47,8 +56,14 @@ const LoginBox = styled.div`
     cursor: pointer;
     transition: background-color 0.3s ease;
     align-self: center;
+
     &:hover {
       background-color: #0056b3;
+    }
+
+    @media (max-width: 768px) {
+      padding: 8px 12px; /* Ajustando o padding do botão em dispositivos móveis */
+      font-size: 1rem; /* Ajustando o tamanho da fonte para telas menores */
     }
   }
 
@@ -61,8 +76,17 @@ const LoginBox = styled.div`
     &:hover {
       text-decoration: underline;
     }
+
+    @media (max-width: 768px) {
+      font-size: 0.8rem; /* Ajustando o tamanho da fonte do link para telas pequenas */
+    }
   }
-`;
+
+  @media (max-width: 768px) {
+    padding: 20px; /* Reduzindo o padding para telas pequenas */
+    margin: 30px auto; /* Ajustando a margem */
+  }
+`
 
 
 

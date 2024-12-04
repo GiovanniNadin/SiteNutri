@@ -1,18 +1,28 @@
 import styled from "styled-components";
 
 const DuvidasContainer = styled.div`
-  background-color: white; 
-  padding: 20px; 
-  border-radius: 8px; 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  width: 1500px; 
-  height: 800px;
-  margin: auto; 
-  position: relative; 
-  top: 50%; 
-  transform: translateY(-56.5%); 
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 80%; /* Ajusta a largura para ser flexível */
+  max-width: 1700px;
+  margin: 40px auto; /* Adicionando espaço superior para evitar sobreposição com o header */
+  position: relative;
+  min-height: 50%; /* Garante um tamanho mínimo */
   text-align: center;
-  overflow-y: auto; /* Permite rolar o conteúdo se ultrapassar a altura */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* Responsividade para telas pequenas */
+  @media (max-width: 768px) {
+    width: 100%; /* Largura 100% para telas pequenas */
+    padding: 15px; /* Padding reduzido */
+    transform: translateY(0); /* Remove o deslocamento vertical */
+    transform: translateX(-2%);
+  }
 `;
 
 const Listduvidas = styled.ul`
