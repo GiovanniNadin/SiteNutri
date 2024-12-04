@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/siteinicial/static/css/main.e6c13ad2.css",
-    "main.js": "/siteinicial/static/js/main.81c38301.js",
-    "static/js/453.e247ea86.chunk.js": "/siteinicial/static/js/453.e247ea86.chunk.js",
-    "static/media/image-removebg-preview.png": "/siteinicial/static/media/image-removebg-preview.7443bc87dadcd5bcb751.png",
-    "static/media/66tp1zir (1).png": "/siteinicial/static/media/66tp1zir (1).889e87cfcf1c306650d7.png",
-    "static/media/perfil.svg": "/siteinicial/static/media/perfil.d459471fbeda60d7f2a433b0f6b660de.svg",
-    "index.html": "/siteinicial/index.html",
-    "main.e6c13ad2.css.map": "/siteinicial/static/css/main.e6c13ad2.css.map",
-    "main.81c38301.js.map": "/siteinicial/static/js/main.81c38301.js.map",
-    "453.e247ea86.chunk.js.map": "/siteinicial/static/js/453.e247ea86.chunk.js.map"
+    "main.css": "/SiteNutri/static/css/main.e6c13ad2.css",
+    "main.js": "/SiteNutri/static/js/main.35e63fc4.js",
+    "static/js/453.e247ea86.chunk.js": "/SiteNutri/static/js/453.e247ea86.chunk.js",
+    "static/media/image-removebg-preview.png": "/SiteNutri/static/media/image-removebg-preview.7443bc87dadcd5bcb751.png",
+    "static/media/66tp1zir (1).png": "/SiteNutri/static/media/66tp1zir (1).889e87cfcf1c306650d7.png",
+    "static/media/perfil.svg": "/SiteNutri/static/media/perfil.d459471fbeda60d7f2a433b0f6b660de.svg",
+    "index.html": "/SiteNutri/index.html",
+    "main.e6c13ad2.css.map": "/SiteNutri/static/css/main.e6c13ad2.css.map",
+    "main.35e63fc4.js.map": "/SiteNutri/static/js/main.35e63fc4.js.map",
+    "453.e247ea86.chunk.js.map": "/SiteNutri/static/js/453.e247ea86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.81c38301.js"
+    "static/js/main.35e63fc4.js"
   ]
 }
