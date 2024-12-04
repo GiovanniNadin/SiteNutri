@@ -125,6 +125,11 @@ function Pesquisa() {
         placeholder="SEU CONTATO"
         value={contatoDigitado}
         onChange={(e) => setcontatoDigitado(e.target.value)}
+        style={{
+          appearance: "textfield", // Remova as setas para Firefox
+          MozAppearance: "textfield", // Remova as setas para navegadores baseados em Gecko
+          WebkitAppearance: "none", // Remova as setas para navegadores baseados em Webkit
+        }}
       />
       <BotaoEnviar onClick={handleSubmit}>Enviar</BotaoEnviar>
     </Search>
