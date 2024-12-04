@@ -13,9 +13,10 @@ let Logocontainer = styled.div`
 `;
 
 let Logoimg = styled.img`
- margin-right: 10px;  /* Aumenta o espaço entre a imagem e o texto */
+  /* Aumenta o espaço entre a imagem e o texto */
   height: 75px;
   width: auto;  /* Mantém a proporção da imagem */
+  
 `;
 
 let LogoText = styled.p`
